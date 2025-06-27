@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CyberPunk Portfolio</title>
+    <script src="/src/script.ts" type="module"></script>
+    <style>
+      body { font-family: sans-serif; margin: 2rem; }
+      nav a { margin-right: 1rem; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <section id="navigation">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Projects</a>
+        <a href="#">About</a>
+      </nav>
+    </section>
+
+    <h1>Latest Blog</h1>
+    <section id="blog">
+      <ul>
+        <li><strong>Name:</strong> <span id="blogName"></span></li>
+        <li><strong>URL:</strong> <a id="blogUrl" href="#" target="_blank"></a></li>
+      </ul>
+    </section>
+
+    <h1>Latest Project</h1>
+    <section id="projects">
+      <ul>
+        <li><strong>Project Name:</strong> <span id="projectName"></span></li>
+        <li><strong>Project Resume:</strong> <span id="projectResume"></span></li>
+      </ul>
+    </section>
+  </body>
+</html>
